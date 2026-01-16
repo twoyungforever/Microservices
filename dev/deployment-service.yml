@@ -200,7 +200,7 @@ spec:
       serviceAccountName: default
       containers:
         - name: server
-          image: twoyungforever/frontend:latest
+          image: twoyungforever/frontend:12-97e905ef68824617207bf760e301e8c360dec3cc
           ports:
           - containerPort: 8080
           readinessProbe:
